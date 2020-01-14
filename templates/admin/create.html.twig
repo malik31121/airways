@@ -1,0 +1,15 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}{{ parent() }} - create new flight {% endblock %}
+
+{% block body %}
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-8">
+            {{ form(myform )}}
+        </div>
+    </div>
+</div>
+
+{% endblock %}
